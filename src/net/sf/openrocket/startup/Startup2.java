@@ -151,7 +151,7 @@ public class Startup2 {
 	}
 	
 	
-	private static void loadMotor() {
+	public static void loadMotor() {
 		
 		log.info("Starting motor loading from " + THRUSTCURVE_DIRECTORY + " in background thread.");
 		ThrustCurveMotorSetDatabase db = new ThrustCurveMotorSetDatabase(true) {

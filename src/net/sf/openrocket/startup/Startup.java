@@ -83,7 +83,7 @@ public class Startup {
 	/**
 	 * Initializes the loggins system.
 	 */
-	private static void initializeLogging() {
+	public static void initializeLogging() {
 		DelegatorLogger delegator = new DelegatorLogger();
 		
 		// Log buffer
@@ -142,7 +142,7 @@ public class Startup {
 	/**
 	 * Initializes the localization system.
 	 */
-	private static void initializeL10n() {
+	public static void initializeL10n() {
 		
 		// Check for locale propery
 		String langcode = System.getProperty("openrocket.locale");
