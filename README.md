@@ -5,7 +5,7 @@ OpenRocket - an Open Source model rocket simulator
 
 This version of OpenRocket has been modified so Python scripts may be used to automate flight simulations.
 
-For **_Python script_** examples, see the [Scripting Examples] folder.
+For **_Python script_** examples, see the [Scripting Examples](https://github.com/metamorph-inc/openrocket/tree/master/scripting_examples) folder.
 
 For an example **_OpenMETA application_** of this OpenRocket version, see the OpenMETA Rocket project [here](https://github.com/metamorph-inc/openmeta-rocket).
 
