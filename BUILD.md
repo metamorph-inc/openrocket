@@ -4,7 +4,7 @@ Building Open Rocket 1.1.9 from Source
 * Java JDK/JRE version 1.6 or later
 * Eclipse Luna (Found [Here](https://www.eclipse.org/downloads/packages/release/luna/sr2))
 
-### Open the Open Rocket Project
+### Open the OpenRocket Project
 1. Open Eclipse.
 2. Select **File > Import**.
 3. In the *Select* pop-up window, click **General >  Existing Projects into
