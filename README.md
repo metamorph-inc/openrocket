@@ -1,8 +1,9 @@
 
 OpenRocket - an Open Source model rocket simulator
 ==================================================
-## Source Code for the OpenMETA Adaptation of OpenRocket
-This version of OpenRocket has been modified so Python scripts may be used to automate simulations.
+### Source Code for the OpenMETA Adaptation of OpenRocket
+
+This version of OpenRocket has been modified so Python scripts may be used to automate flight simulations.
 
 For **_Python script_** examples, see the [Scripting Examples] folder.
 
@@ -18,12 +19,10 @@ For license information see the file LICENSE.TXT.
 
 For more information see http://openrocket.sourceforge.net/
 
-Contributions have been made by:
---------------------------------
+**Contributions have been made by:**
 
 Sampo Niskanen, main developer
 Doug Pedrick, support for reading RockSim designs, printing
 Richard Graham, geodetic computations
 Boris du Reau, internationalization
 Tripoli France, Tripoli Spain, Stefan Lobas / ERIG, translations
-
