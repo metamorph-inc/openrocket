@@ -20,9 +20,10 @@ Building Open Rocket 1.1.9 from Source
 2. In the *Select* pop-up window, select **Java >  JAR file** and then click **Next**.
 3. In the *JAR File Specification* window, select all the resources you would
    like to export. (Selecting the entire project folder works, but do not include
-   old JAR files!) Change the path and name of the exported file in the *JAR file*
-   text box if desired. Make sure **Export generated class files and resources**
-   and **Compress the contents of the JAR file** options are checked, then click **Next**.
+   old JAR files or the scripting_examples folder! They'll take up unnecessary extra space.) 
+   Change the path and name of the exported file in the *JAR file* text box if desired. 
+   Make sure **Export generated class files and resources** and **Compress the contents of 
+   the JAR file** options are checked, then click **Next**.
 4. Click **Next** again.
 5. In the *JAR Manifest Specification* window, select the **Generate the manifest
    file** radial button. Check **Save the manifest in the workspace**. (Leave
