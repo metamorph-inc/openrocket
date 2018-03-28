@@ -1,20 +1,19 @@
 
 OpenRocket - an Open Source model rocket simulator
---------------------------------------------------
-**_This version has been modified so that simulations may be run from a Python script in OpenMETA.
-For example scripts, see the OpenMETA Rocket project [here](https://github.com/metamorph-inc/openmeta-rocket)._**
+==================================================
+## Source Code for the OpenMETA Adaptation of OpenRocket
+This version of OpenRocket has been modified so Python scripts may be used to automate simulations.
 
+For **_Python script_** examples, see the [Scripting Examples] folder.
+
+For an example **_OpenMETA application_** of this OpenRocket version, see the OpenMETA Rocket project [here](https://github.com/metamorph-inc/openmeta-rocket).
+
+For instructions on how to **_build OpenRocket.jar from this source_**, see [BUILD.md](https://github.com/metamorph-inc/openrocket/blob/master/BUILD.md).
+
+Source
+------
 Copyright (C) 2007-2011  Sampo Niskanen
-
-To start the software run the class 
-
-    net.sf.openrocket.startup.Startup
-
-or from the JAR file run
-
-    $ java -jar OpenRocket-<VERSION>.jar
     
-
 For license information see the file LICENSE.TXT.
 
 For more information see http://openrocket.sourceforge.net/
