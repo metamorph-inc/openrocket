@@ -1,10 +1,10 @@
 Building Open Rocket 1.1.9 from Source
 ======================================
-###Requirements
+### Requirements
 * Java JDK/JRE version 1.6 or later
 * Eclipse Luna (Found [Here](https://www.eclipse.org/downloads/packages/release/luna/sr2))
 
-###Open the Open Rocket Project
+### Open the Open Rocket Project
 1. Open Eclipse.
 2. Select **File > Import**.
 3. In the *Select* pop-up window, click **General >  Existing Projects into
@@ -15,7 +15,7 @@ Building Open Rocket 1.1.9 from Source
    the OpenRocket project. Make sure the box next to the OpenRocket project is
    checked and click **Finish**.
 
-###Export OpenRocket as a .jar
+### Export OpenRocket as a .jar
 1. Select **File > Export**.
 2. In the *Select* pop-up window, select **Java >  JAR file** and then click **Next**.
 3. In the *JAR File Specification* window, select all the resources you would
