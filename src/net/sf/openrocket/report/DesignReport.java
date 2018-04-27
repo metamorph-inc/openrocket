@@ -1,7 +1,7 @@
 /*
  * DesignReport.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.awt.Graphics2D;
 import java.io.IOException;

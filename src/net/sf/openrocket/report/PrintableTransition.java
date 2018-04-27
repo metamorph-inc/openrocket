@@ -1,4 +1,4 @@
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.awt.BasicStroke;
 import java.awt.Graphics2D;

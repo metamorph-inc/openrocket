@@ -1,7 +1,7 @@
 /*
  * PrintableFinSet.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import net.sf.openrocket.rocketcomponent.FinSet;
 import net.sf.openrocket.util.Coordinate;

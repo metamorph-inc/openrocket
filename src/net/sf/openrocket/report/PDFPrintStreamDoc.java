@@ -1,7 +1,7 @@
 /*
  * PDFPrintStreamDoc.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import javax.print.Doc;
 import javax.print.DocFlavor;

@@ -1,7 +1,7 @@
 /*
  * PrintSimulationWorker.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import net.sf.openrocket.document.Simulation;
 import net.sf.openrocket.gui.main.SimulationWorker;

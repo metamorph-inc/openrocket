@@ -1,7 +1,7 @@
 /*
  * OpenRocketPrintable.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.util.ArrayList;
 import java.util.List;

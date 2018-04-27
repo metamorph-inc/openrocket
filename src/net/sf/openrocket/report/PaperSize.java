@@ -1,4 +1,4 @@
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

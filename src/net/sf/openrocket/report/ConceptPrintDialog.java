@@ -1,4 +1,4 @@
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.awt.Window;
 import java.lang.reflect.InvocationTargetException;

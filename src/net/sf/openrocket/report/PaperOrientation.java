@@ -1,4 +1,4 @@
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.RectangleReadOnly;

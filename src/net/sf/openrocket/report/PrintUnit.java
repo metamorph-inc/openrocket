@@ -1,7 +1,7 @@
 /*
  * PrintUnit.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 /**
  * Utilities for print units.

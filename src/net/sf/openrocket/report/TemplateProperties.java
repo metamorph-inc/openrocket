@@ -1,7 +1,7 @@
 /*
  * TemplateProperties.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.awt.Color;
 

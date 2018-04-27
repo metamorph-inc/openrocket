@@ -1,7 +1,7 @@
 /*
  * ITextHelper.java
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;

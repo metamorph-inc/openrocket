@@ -2,7 +2,7 @@
  * PrintableContext.java
  *
  */
-package net.sf.openrocket.gui.report;
+package net.sf.openrocket.report;
 
 import java.util.Iterator;
 import java.util.Map;
