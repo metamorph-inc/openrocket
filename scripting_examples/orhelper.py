@@ -127,6 +127,11 @@ class Helper(object):
                 return component
         raise ValueError(root.toString()+' has no component named '+name)
 
+    def export_rocket_image(self, doc):
+        printControl = self.orp.report.PrintController
+        # printControl.export()
+        return printControl
+
 class JIterator(object):
     "This class is a wrapper for java iterators to allow them to be used as python iterators"
 
