@@ -2,12 +2,12 @@ import sys, traceback
 import numpy as np
 import orhelper
 
-orhelper.OpenRocketInstance('C:\Users\metamorph\Documents\OpenRocket_test.jar', log_level='ERROR')
+orhelper.OpenRocketInstance('C:\Users\Cailey\Documents\MetaMorph\OpenRocket.jar', log_level='ERROR')
 orh = orhelper.Helper()
 
 # Load document, run simulation and get events
 
-doc = orh.load_doc('..\ork_files\simple.ork')
+doc = orh.load_doc('C:\Users\Cailey\Documents\MetaMorph\openrocket\datafiles\examples\simple.ork')
 
 gui = orh.export_rocket_image(doc)
 

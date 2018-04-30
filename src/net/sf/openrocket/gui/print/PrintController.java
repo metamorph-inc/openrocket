@@ -36,7 +36,7 @@ public class PrintController {
 	 * @param outputFile  the file being written to
 	 * @param settings    the print settings
 	 */
-	public void print(OpenRocketDocument doc, Iterator<PrintableContext> toBePrinted, OutputStream outputFile,
+	public void printReport(OpenRocketDocument doc, OutputStream outputFile,
 						PrintSettings settings) {
 		
 		Document idoc = new Document(getSize(settings));
@@ -52,50 +52,12 @@ public class PrintController {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 			}
-			while (toBePrinted.hasNext()) {
-				PrintableContext printableContext = toBePrinted.next();
-				
-				Set<Integer> stages = printableContext.getStageNumber();
-				
-				switch (printableContext.getPrintable()) {
-				case DESIGN_REPORT:
-					DesignReport dp = new DesignReport(doc, idoc);
-					dp.writeToDocument(writer);
-					idoc.newPage();
-					break;
-				case FIN_TEMPLATE:
-					final FinSetPrintStrategy finWriter = new FinSetPrintStrategy(idoc,
-																							writer,
-																							stages);
-					finWriter.writeToDocument(doc.getRocket());
-					break;
-				case PARTS_DETAIL:
-					final PartsDetailVisitorStrategy detailVisitor = new PartsDetailVisitorStrategy(idoc,
-																										writer,
-																										stages);
-					detailVisitor.writeToDocument(doc.getRocket());
-					detailVisitor.close();
-					idoc.newPage();
-					break;
-                case TRANSITION_TEMPLATE:
-                    final TransitionStrategy tranWriter = new TransitionStrategy(idoc, writer, stages);
-                    tranWriter.writeToDocument(doc.getRocket(), false);
-                    idoc.newPage();
-                    break;
-
-                case NOSE_CONE_TEMPLATE:
-                    final TransitionStrategy coneWriter = new TransitionStrategy(idoc, writer, stages);
-                    coneWriter.writeToDocument(doc.getRocket(), true);
-                    idoc.newPage();
-                    break;
-
-                case FIN_MARKING_GUIDE:
-                    final FinMarkingGuideStrategy fmg = new FinMarkingGuideStrategy(idoc, writer);
-                    fmg.writeToDocument(doc.getRocket());
-                    idoc.newPage();
-                    break;
-                }
-			}
+			
+			DesignReport dp = new DesignReport(doc, idoc);
+			dp.writeToDocument(writer);
+			idoc.newPage();
+					
+			
 			//Stupid iText throws a really nasty exception if there is no data when close is called.
 			if (writer.getCurrentDocumentSize() <= 140) {
 				writer.setPageEmpty(false);

@@ -128,8 +128,8 @@ class Helper(object):
         raise ValueError(root.toString()+' has no component named '+name)
 
     def export_rocket_image(self, doc):
-        printControl = self.orp.report.PrintController
-        # printControl.export()
+        printControl = self.orp.document.ExportReport(doc)
+        printControl.generateReport()
         return printControl
 
 class JIterator(object):

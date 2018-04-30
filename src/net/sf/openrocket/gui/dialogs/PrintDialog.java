@@ -277,7 +277,7 @@ public class PrintDialog extends JDialog implements TreeSelectionListener {
 	 */
 	private File generateReport(File f, PrintSettings settings) throws IOException {
 		Iterator<PrintableContext> toBePrinted = currentTree.getToBePrinted();
-		new PrintController().print(document, toBePrinted, new FileOutputStream(f), settings);
+		new PrintController().printReport(document, new FileOutputStream(f), settings);
 		return f;
 	}
 	
