@@ -7,7 +7,7 @@ This version of OpenRocket has been modified so Python scripts may be used to au
 
 For **_Python script_** examples, see the [Scripting Examples](https://github.com/metamorph-inc/openrocket/tree/master/scripting_examples) folder.
 
-For an example **_OpenMETA application_** of this OpenRocket version, see the OpenMETA Rocket project [here](https://github.com/metamorph-inc/openmeta-rocket).
+For an example **_OpenMETA application_** of this OpenRocket version, see the [OpenMETA Rocket project](https://github.com/metamorph-inc/openmeta-rocket).
 
 For instructions on how to **_build OpenRocket.jar from this source_**, see [BUILD.md](https://github.com/metamorph-inc/openrocket/blob/master/BUILD.md).
 
