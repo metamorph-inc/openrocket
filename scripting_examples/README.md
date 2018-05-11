@@ -1,5 +1,5 @@
-Open Rocket Simulation Example Scripts
-======================================
+OpenRocket Simulation Example Scripts
+=====================================
 ### Requirements
 Simulating OpenRocket from Python scripts requires this [modified version of OpenRocket](https://github.com/metamorph-inc/openmeta-rocket/blob/master/openmeta-OpenRocket.jar) and the Python-Java bridge library called JPype.
 Instructions for installing JPype can be found [here](https://github.com/metamorph-inc/openmeta-rocket/tree/master/JPype).
