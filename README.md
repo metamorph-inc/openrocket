@@ -31,5 +31,5 @@ Changelog
 ---------
 1. function net.sf.openrocket.startup.startup.initializeLogging changed from private to public
 2. function net.sf.openrocket.startup.startup.initializeL10n changed from private to public
-2. function net.sf.openrocket.startup.startup2.loadMotor changed from private to public
+3. function net.sf.openrocket.startup.startup2.loadMotor changed from private to public
 
