@@ -29,6 +29,7 @@ Tripoli France, Tripoli Spain, Stefan Lobas / ERIG, translations
 
 Changelog
 ---------
+The OpenRocket source code was changed according to [this Mailing List post](https://sourceforge.net/p/openrocket/mailman/openrocket-devel/thread/4F17AA0C.1040002@rdg.cc/) on Sourceforge in order to call OpenRocket from scripts.
 1. function net.sf.openrocket.startup.startup.initializeLogging changed from private to public
 2. function net.sf.openrocket.startup.startup.initializeL10n changed from private to public
 3. function net.sf.openrocket.startup.startup2.loadMotor changed from private to public
