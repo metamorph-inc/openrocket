@@ -26,3 +26,10 @@ Doug Pedrick, support for reading RockSim designs, printing
 Richard Graham, geodetic computations
 Boris du Reau, internationalization
 Tripoli France, Tripoli Spain, Stefan Lobas / ERIG, translations
+
+Changelog
+---------
+1. function net.sf.openrocket.startup.startup.initializeLogging changed from private to public
+2. function net.sf.openrocket.startup.startup.initializeL10n changed from private to public
+2. function net.sf.openrocket.startup.startup2.loadMotor changed from private to public
+
